@@ -126,6 +126,10 @@ img{
     opacity:1;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd553c1 (Construido location section)
 /* Top Section area */
 
 .top-section{
@@ -165,4 +169,47 @@ img{
 .card-text{
     margin-top:1.4em;
     max-width:13.75em;
+<<<<<<< HEAD
+=======
+}
+
+/* Location Area */
+
+#location-section{
+    height:400px;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)), url(/img/hrz-1.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-bottom: 3em;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:var(--text-color);
+}
+
+.address-area, .location-text{
+    max-width:30%;
+}
+
+.address-area{
+    display:flex;
+    justify-content: space-between;
+}
+
+.address-text{
+    text-align:center;
+    font-style:normal;
+}
+
+.bi-geo-alt-fill{
+    font-size:4em;
+    color:var(--primary);
+    margin-right:.5em;
+}
+
+.location-text h3{
+    color:var(--primary);
+    font-size:3em;
+    margin-bottom:1em;
+>>>>>>> cd553c1 (Construido location section)
 }
