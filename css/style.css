@@ -73,3 +73,55 @@ img{
 .alt-color{
     color:var(--primary);
 }
+
+/* Form Area */
+
+.main-header-form{
+    background-color:var(--secondary);
+    padding:1.6em;
+    border-radius:5px;
+    max-width:22%;
+}
+
+.form-title{
+    font-size:1.5em;
+    font-weight: normal;
+    color:var(--text-secondary);
+    margin-bottom:1em;
+}
+
+.input-block input, #user_interest{
+    display:block;
+    padding:6px 8px;
+    width:100%;
+    font-size:15px;
+    border-radius:5px;
+    border:0;
+    outline:none;
+    margin-bottom:.8em;
+}
+
+.input-block label{
+    display:block;
+    color:var(--text-tertiary);
+    font-weight: 700;
+    margin-bottom:.4em;
+}
+
+#btn-enviar{
+    display:block;
+    width:100%;
+    padding:12px;
+    border:0;
+    border-radius:5px;
+    background-color:var(--primary);
+    cursor:pointer;
+    color:var(--text-color);
+    text-transform:uppercase;
+    opacity: .8;
+    transition:opacity .3s ease-in;
+}
+
+#btn-enviar:hover{
+    opacity:1;
+}

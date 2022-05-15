@@ -25,6 +25,32 @@
             <p class="main-header-p">Data do evento:</p>
             <p class="event-data alt-color">Domingo, 28 de Maio, a partir das 14h</p>
         </div>
+		
+		<form action="#" method="get" class="main-header-form">
+            <p class="form-title">Preencha o formulario para receber os detalhes do evento</p>
+            <div class="input-block">
+                <label for="user_name">Nome</label>
+                <input type="text" name="user_name" id="user_name" placeholder="Digite seu nome">
+            </div>
+
+            <div class="input-block">
+                <label for="user_email">Email</label>
+                <input type="email" name="user_email" id="user_email" placeholder="Digite seu melhor e-mail">
+            </div>
+
+            <div class="input-block">
+                <label for="user_tel">Telefone</label>
+                <input type="text" name="user_tel" id="user_tel" placeholder="Número do Whatsapp">
+            </div>
+
+            <div class="input-block">
+                <label for="user_interest">Principal Interesse</label>
+                <select name="user_interest" id="user_interest">
+                    <option value="" disabled selected>Selecione</option>
+                </select>
+            </div>
+            <button type="submit" id="btn-enviar">Quero me increver</button>
+        </form>
 	</header>
     <main></main>
 </body>
