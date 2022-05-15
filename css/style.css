@@ -1,0 +1,209 @@
+:root {
+    --primary: #EB1CCC;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+  }
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    min-height:100vh;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* Header area */
+
+.main-header{
+    height:85vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0, .8)), url(../img/hrz-5.jpg);
+    background-position:center;
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:var(--text-color)
+    
+}
+
+.main-header-text{
+   max-width:350px;
+}
+
+.main-header-title{
+    font-size:3em;
+    font-weight: bold;
+    padding-bottom:1em;
+}
+
+.main-header-subtitle{
+    text-transform:uppercase;
+    padding:.4em 0;
+    font-size:32px;
+    font-weight: 700;
+}
+
+.main-header-p{
+    font-size:1.2em;
+    margin-bottom:.3em;
+}
+
+.event-data{
+    font-weight: 700;
+}
+
+.alt-color{
+    color:var(--primary);
+}
+
+/* Form Area */
+
+.main-header-form{
+    background-color:var(--secondary);
+    padding:1.6em;
+    border-radius:5px;
+    max-width:22%;
+}
+
+.form-title{
+    font-size:1.5em;
+    font-weight: normal;
+    color:var(--text-secondary);
+    margin-bottom:1em;
+}
+
+.input-block input, #user_interest{
+    display:block;
+    padding:6px 8px;
+    width:100%;
+    font-size:15px;
+    border-radius:5px;
+    border:0;
+    outline:none;
+    margin-bottom:.8em;
+}
+
+.input-block label{
+    display:block;
+    color:var(--text-tertiary);
+    font-weight: 700;
+    margin-bottom:.4em;
+}
+
+#btn-enviar{
+    display:block;
+    width:100%;
+    padding:12px;
+    border:0;
+    border-radius:5px;
+    background-color:var(--primary);
+    cursor:pointer;
+    color:var(--text-color);
+    text-transform:uppercase;
+    opacity: .8;
+    transition:opacity .3s ease-in;
+}
+
+#btn-enviar:hover{
+    opacity:1;
+}
+
+
+/* Top Section area */
+
+.top-section{
+    text-align: center;
+}
+
+.top-section h2{
+    background-color:var(--secondary);
+    padding:2em;
+    font-weight: normal;
+}
+
+.card-area{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    padding:4em;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-position: center;
+    background-size:cover;
+}
+
+.card-text{
+    margin-top:1.4em;
+    max-width:13.75em;
+}
+
+/* Location Area */
+
+#location-section{
+    height:400px;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)), url(/img/hrz-1.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-bottom: 3em;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:var(--text-color);
+}
+
+.address-area, .location-text{
+    max-width:30%;
+}
+
+.address-area{
+    display:flex;
+    justify-content: space-between;
+}
+
+.address-text{
+    text-align:center;
+    font-style:normal;
+}
+
+.bi-geo-alt-fill{
+    font-size:4em;
+    color:var(--primary);
+    margin-right:.5em;
+}
+
+.location-text h3{
+    color:var(--primary);
+    font-size:3em;
+    margin-bottom:1em;
+}
