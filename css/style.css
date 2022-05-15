@@ -30,3 +30,46 @@ img{
     display:block;
 }
 
+/* Header area */
+
+.main-header{
+    height:85vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0, .8)), url(../img/hrz-5.jpg);
+    background-position:center;
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:var(--text-color)
+    
+}
+
+.main-header-text{
+   max-width:350px;
+}
+
+.main-header-title{
+    font-size:3em;
+    font-weight: bold;
+    padding-bottom:1em;
+}
+
+.main-header-subtitle{
+    text-transform:uppercase;
+    padding:.4em 0;
+    font-size:32px;
+    font-weight: 700;
+}
+
+.main-header-p{
+    font-size:1.2em;
+    margin-bottom:.3em;
+}
+
+.event-data{
+    font-weight: 700;
+}
+
+.alt-color{
+    color:var(--primary);
+}
