@@ -304,3 +304,64 @@ img{
 #footer span{
     font-weight: bold;
 }
+
+/* Mobile */
+
+@media (max-width: 450px) {
+    .main-header{
+        flex-direction: column;
+        height:auto;
+    }
+
+    .main-header-text{
+        padding:2em;
+    }
+
+    .main-header-title{
+        margin-bottom:.5em;
+    }
+
+    .main-header-form{
+        max-width:70%;
+        margin-bottom:2em;
+    }
+    
+    /* Top Section Area */
+
+    .card-area{
+        flex-direction: column;
+        align-items: center;
+        width:auto;
+        padding: 2em;
+    }
+
+    .card{
+        max-width:100%;
+        margin-bottom:2em;
+    }
+
+
+    /* Location Area */
+
+    #location-section{
+        flex-direction: column;
+        height:auto;
+        text-align: center;
+        padding:2em 0;
+    }
+
+    .address-area{
+        order:2;
+        flex-direction: column;
+        max-width:100%;
+    }
+
+    .address-area i{
+        margin: .3em 0;
+    }
+
+    .location-text{
+        max-width:100%;
+        order:1;
+    }
+}
