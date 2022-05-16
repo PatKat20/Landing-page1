@@ -271,7 +271,7 @@ img{
 .cta-title{
     font-size:2em;
     font-weight: 500;
-    margin-bottom:1em;
+    margin-bottom:1.2em;
 }
 
 #cta .btn{
@@ -307,7 +307,12 @@ img{
 
 /* Mobile */
 
+
 @media (max-width: 450px) {
+    .btn{
+        opacity:1;
+    }
+
     .main-header{
         flex-direction: column;
         height:auto;
@@ -364,4 +369,44 @@ img{
         max-width:100%;
         order:1;
     }
+
+    /* Details area */
+
+    .details{
+        flex-direction:column;
+        gap:0;
+        margin-bottom:.5em;
+    }
+
+    .details img{
+        width:100%;
+        margin:2em 0;
+    }
+
+    #detail-1 img{
+        display:none;
+    }
+
+    #detail-3 img{
+        order:2
+    }
+
+    #detail-3 .detail-description{
+        order:1;
+    }
+    .detail-description{
+        padding:0;
+    }
+
+    /* CTA area */
+    #cta{
+        text-align: center;
+        padding:.5em;
+    }
+
+    #cta .btn-cta{
+        width:80%;
+    }
+
+    
 }
