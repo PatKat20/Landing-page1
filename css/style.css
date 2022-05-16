@@ -17,10 +17,6 @@ body{
     min-height:100vh;
 }
 
-ul{
-    list-style:none;
-}
-
 a{
     text-decoration:none;
 }
@@ -108,7 +104,7 @@ img{
     margin-bottom:.4em;
 }
 
-#btn-enviar{
+.btn{
     display:block;
     width:100%;
     padding:12px;
@@ -126,10 +122,6 @@ img{
     opacity:1;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> cd553c1 (Construido location section)
 /* Top Section area */
 
 .top-section{
@@ -169,8 +161,6 @@ img{
 .card-text{
     margin-top:1.4em;
     max-width:13.75em;
-<<<<<<< HEAD
-=======
 }
 
 /* Location Area */
@@ -209,7 +199,108 @@ img{
 
 .location-text h3{
     color:var(--primary);
-    font-size:3em;
+    font-size:2.5em;
     margin-bottom:1em;
->>>>>>> cd553c1 (Construido location section)
+    text-transform:uppercase;
+}
+
+.location-text p{
+    line-height:1.5em;
+}
+
+
+/* Details section area */
+#details{
+    width:80%;
+    margin:0 auto;
+}
+
+.details{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:5%;
+    margin-bottom:4em;
+}
+
+.details img{
+    width:50%;
+}
+
+.details h3{
+    margin-bottom:1em;
+    font-size:2em;
+    font-weight: 500;
+}
+
+#detail-1 h3{
+    font-weight: bold;
+}
+
+.detail-description{
+    width:100%;
+    padding-left:2em;
+}
+
+.detail-description ul{
+    list-style:inside;
+}
+
+.detail-description ul li{
+    margin-bottom:.4em;
+}
+
+.detail-description ul li:last-child{
+    font-weight:bold;
+}
+
+/* Cta Section */
+
+#cta{
+    height:300px;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)), url(/img/hrz-1.jpg);
+    background-position:center;
+    background-size:cover;
+    color:var(--text-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-title{
+    font-size:2em;
+    font-weight: 500;
+    margin-bottom:1em;
+}
+
+#cta .btn{
+    width:30%;
+    font-weight: 600;
+    font-size:1.2em;
+}
+
+/* Footer */
+
+#footer{
+    text-align:center;
+    color:var(--secondary);
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3{
+    font-size:1.8em;
+    margin-bottom:.5em;
+}
+
+#footer p:nth-child(2){
+    margin-bottom:1em;
+    font-size:1.2em;
+}
+
+#footer span{
+    font-weight: bold;
 }
