@@ -1,4 +1,7 @@
 # Landing Page para um evento fictício chamado InDecor
+
+<a href="https://patkat-indecor.herokuapp.com" target="blank">Veja o projeto rodando no Heroku</a>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/100157955/168642434-f2883550-a0d4-4f4d-beb9-f25a460b6a53.jpg">
 </div>
